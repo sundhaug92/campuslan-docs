@@ -1,0 +1,1 @@
+This repository documents CampusLAN infrastructure, including our [devices](./devices/)
