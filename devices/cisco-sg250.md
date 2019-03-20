@@ -1,0 +1,1 @@
+SG250s are used as table-switches (one switch per table)
