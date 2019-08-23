@@ -1,3 +1,4 @@
+# Grafana
 Hosted on port 3000 on [server-Y](devices/Y.md)
 Grafana takes metrics from influxdb and provides them to custom dashboards and alerting. This enables us to monitor the health of the network and devices, and to diagnose and service issues (preferably before users notice).
 
