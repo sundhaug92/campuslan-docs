@@ -20,6 +20,7 @@ def handle_line(line):
     # print(line)
     # The following, monstrous, regex, extracts from a logline everything interesting
     m = re.search(r'^(\[[a-z0-9.]+\]) (([0-9]+\.){3}[0-9]+) \/ (-|[0-9.]+) (-) - \[([0-9]+\/[A-Za-z]+\/[0-9]+:([0-9]{2}:?){3} \+[0-9]+)\] "([A-Z]+) ([\/a-zA-Z0-9.\-_\?\=\&\%\~\+\:]+) HTTP\/[012]\.[01]" ([0-9]{3}) ([0-9]+) ("-") "([A-Za-z\/.0-9() \-\ .;,:_\+]+)" "([A-Z\-]+)" "([a-z0-9.\-]+)" "((-)|(bytes=[0-9\-]+))"$', line)
+    # When this breaks, its' probably UA or path. Cut here                                                                                ^path or                                                                                  ^here (UA)
     if m is None:
         raise Exception('UNKNOWN LINE "{}"'.format(line))
     # cache_identifier: Which cache is this? ex: wsus (Windows Update), steam
