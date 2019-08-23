@@ -1,0 +1,1 @@
+This directory includes scripts for running and managing lancache
