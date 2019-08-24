@@ -1,0 +1,1 @@
+This project was created as an idea for lighting CampusLAN 2019V. It was never used.

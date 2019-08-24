@@ -1,1 +1,1 @@
-This directory includes scripts for running and managing lancache
+This directory includes scripts for running and managing lancache. Some of this should probably be rewritten to use docker-compose and .env-files.
